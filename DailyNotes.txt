@@ -1,0 +1,204 @@
+
+Language:
+========
+		English-->communication
+		
+Programming Language:
+====================
+			python,c,java,c++,.net............communication with machine
+
+
+				POP   					OOP
+
+		B,BCPL,C,COBOL,PHOTON.... 		c++,java,python,.net....
+
+
+							1)Performance	inheritance,polymorphisam
+							2)Security		abstraction,encapsulation
+
+		OOPS      OOPL
+		
+Why Java:
+----------WORA
+	
+		object oriented programming language
+		
+		
+		1)Platform indepndent    
+		
+		
+		machine1     machine2    machine3 .....
+		windows11    linux	      mac.....		
+																		.net  microsoft
+	Welcome.class
+		
+		
+		2)Garbage Collection
+		
+			c,c++,java
+		
+				welcome to java
+		
+	53 	-->lowercase 
+	
+		Welcome.java
+		
+class Welcome
+{
+
+public static void main(String args[])
+{
+	System.out.println("welcome to java ");
+}
+
+}
+
+
+	1996 jdk 1.0  -->Sun micro system-->Oracle Corporation -->James Gosling
+		 jdk 1.8
+
+	2023 june	20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
