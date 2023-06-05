@@ -59,14 +59,72 @@ public static void main(String args[])
 
 	2023 june	20
 
+Java Api Documentation:
+=======================
+
+https://docs.oracle.com/javase/8/docs/api/
 
 
+folder-->related  files together 
+
+package -->
+
+import -->
 
 
+Identifiers:
+=============
+any name in java will call it as identifier
+
+		it can be classname,method name,variable name,obj name,interface name .....
+		classname -->Test@123
+		
+		
+		a-z
+		A-Z
+		0-9
+		$
+		_
+		
+		test123	-->valid
+		
+		123test -->we cant start with digit 
+		
+		
+Variables:
+==========
+
+		anil 89348348973
+
+variable name -->value
+		
+		
+		syntax:
+				datatype varname=value;
+		
+		
+					
+
+datatypes:
+===========
+		 PDT 				NPDT
+	
+8 PDT
+				numeric data 
+		byte	1 byte   8 bits		-128 to 127
+		short 	2 bytes	 			-32768 to 32767					byte age=33;	 1 byte
+		int		4 bytes				-2147483648 to 2147483647    long age=33;  	8 byte
+		long	8 bytes				-2 power 63 to (2 power 63 )-1  long contact=9494943499
+		
+				decimal
+		float	4 bytes			float result=23.4539872347829f;					
+		double	8 bytes			double result=23.4539872347829;					
+
+		char	2 bytes   		C -->english ASCII A-65 a-97 18 international 
+		boolean	1 bit	true-1 ,false-0												
 
 
-
-
+			
 
 
 
