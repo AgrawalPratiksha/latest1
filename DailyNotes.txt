@@ -103,7 +103,11 @@ variable name -->value
 				datatype varname=value;
 		
 		
-					
+			local variables	:if we define the variable inside the method 
+			
+			global variables:if we define the variable outside the method and inside the class
+			
+							instance,static
 
 datatypes:
 ===========
@@ -120,17 +124,55 @@ datatypes:
 		float	4 bytes			float result=23.4539872347829f;					
 		double	8 bytes			double result=23.4539872347829;					
 
-		char	2 bytes   		C -->english ASCII A-65 a-97 18 international 
+		char	2 bytes     'M'		C -->english ASCII A-65 a-97 18 international 
 		boolean	1 bit	true-1 ,false-0												
 
 
 			
 
+Instance & Static :
+=====================
 
 
+Syntax:
+=======
+	static proprties using static		variable,method,block
+	if there is no static i.e instance
 
+Memory:
+======
+	static properties will get memory space only once at the time of class loading into JVM   // method area   java Welcome
+	instance properties will get memory space for every object creation    // heap area
+	
+	
 
+			how much,when,where    JDK-->JRE-->JVM-- 5 memory areas
+			
+			class  -->    TREE -->mango tree,banana tree...
+			
+			object --> memory creation 
+			
+			
+			class A
+			{
+			
+			}
+			
+				classname objname= new classname();
+				
+				A obj=new A();
+			
+Access:
+=======
 
+		static properties can be accessed by using classname 
+		instance properties can be accessed by using objref 
+
+Usage:
+=====
+
+				for common data like countryname,orgname,schoolname,clgname....static
+				for unique data like eid,sid,pan,aadhar,acntno.....instance
 
 
 
