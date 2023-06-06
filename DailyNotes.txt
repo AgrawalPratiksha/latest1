@@ -315,16 +315,35 @@ sop(111);
 }
 }
 
+polymorphisam(method overloading,method overriding,),Scanner,this,super,constructor,public,private,protected,default,final,Encapslatu
 
 
 
+polymorphisam:
+==============
+many forms
 
+	method overloading
+				method name is same but signature is different 
+										no of params
+										order of params 
+										type of params 
+	
+												type promotion
+	method overriding 
+				method name is same but body is different  
+				
+class parent
+{
 
+100 mthods
+}
 
+class Child extends Parent
+{
+10 methods
 
-
-
-
+}
 
 
 
