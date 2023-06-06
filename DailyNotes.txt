@@ -203,23 +203,43 @@ Methods
 	System.out.println(a/b);
 	}
 	
+Flow Control
+=============
+
+			if,else,while,do while,for,switch,case,default,break,continue
 
 
 
+Oops features
+=============
+			inheritance,polymorphisam -->peroformance
+			encapsulation,abstraction -->security
+			
+			
+Inheritance:
+============
+	the process aquiring the features from one class to another class
+	
 
 
+extends ,implements  :code reusability
+
+ class A
+{
+100 methods
+
+}
+class B extends A						class C
+{
+20 methods
 
 
+}
 
-
-
-
-
-
-
-
-
-
+NOTE:
+=======
+	1)By default package for every java file is java.lang
+	2)By default parent class for every java class is java.lang.Object
 
 
 
