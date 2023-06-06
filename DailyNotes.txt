@@ -243,15 +243,77 @@ NOTE:
 
 
 
+single level
+
+multi level
+
+hirarchie
+
+hybrid (single+multi level)
+
+multiple inheritance
+
+	MI supported by java through interfaces
+	MI not supoorted by java through classes 
+		
+	
+
+interface 
+
+
+		non-abstract/concrete method 
+		abstract method
+
+//concrete method
+public void m1()
+{
+
+}
+//method without body
+public abstract void m1();
+
+
+abstraction:
+============
+	its a process hiding implementation by showcasing functionality
+			
+			class is a collection variables(data members)+methods(member functions)
+			
+			class			:its collection of only concrete methods
+			abstract class	:its combination of both abstract and concrete methods
+			interfaces 		:collection of only abstract methods.
+
+
+abstraction :interface 100%
+
+			abstract class -->0%-100%
 
 
 
+interface Parent 						interface Parent1
+{											{
+
+public m1();								public m1();
 
 
 
+}												}
 
 
+class Child implements Parent,Parent1
+{																class-->class-->extends
+																interface--->interface-->extends
+main()															class--->interface->implements
+{
+Child child=new Child();
+child.m1();
+}
 
+m1()
+{
+sop(111);
+}
+}
 
 
 
