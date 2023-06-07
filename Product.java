@@ -1,10 +1,12 @@
-package com.ericsson.oops;
+package com.ericsson.iostream;
 
-public class Product {
+import java.io.Serializable;
 
+public class Product implements Serializable{
+//comment for checking git 
 	private int productId;
 	private String productName;
-	private int productPrice;
+	private transient int productPrice;
 	private String prodcutCategory;
 
 	@Override
