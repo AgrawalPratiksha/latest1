@@ -315,7 +315,7 @@ sop(111);
 }
 }
 
-polymorphisam(method overloading,method overriding,),Scanner,this,super,constructor,public,private,protected,default,final,Encapslatu
+polymorphisam(method overloading,method overriding,final),Scanner,this,super,constructor,public,private,protected,default,Encapsulation
 
 
 
@@ -346,6 +346,36 @@ class Child extends Parent
 }
 
 
+public 	-->every where 
+private -->class level scope
+protected--> inside package every where and outside when its child
+default	--->package level scope
+
+
+Day-3:
+=======
+
+this,super,constructor,Encapsulation
+
+class Test{
+	public int m1()
+	{
+	return 123;
+	}
+	public Test(){
+	
+	}
+
+public static void main(String args[])
+{
+	Test test=new Test();
+
+}
+
+}
+
+this keyword used to represent current class properties(method,variable,constructor,object)
+super keyword used to represent parent class properties(method,variable,constructor)
 
 
 
@@ -356,6 +386,41 @@ class Child extends Parent
 
 
 
+Exception handling:
+====================
+
+
+
+
+I/O
+===
+
+String,StringBuffer,StringBuilder
+==================================
+
+Arrays:
+=======
+
+Collections:
+============
+
+
+
+
+
+
+AdvancedCollections
+====================
+
+
+
+
+
+
+
+
+multithreading:
+===============
 
 
 
@@ -365,12 +430,16 @@ class Child extends Parent
 
 
 
+Advanced Multithreading 
+=======================
 
 
 
 
 
 
+Java8 Features:
+=============
 
 
 
