@@ -379,35 +379,129 @@ super keyword used to represent parent class properties(method,variable,construc
 
 
 
+Encapsulation:
+==============
+wrapping up of data and corresponding methods together 
+
+		private  int eid;
+		
+		
+		public 
+
+
+Stream I/O:
+===========
+
+java.io			File
+
+character stream		 PrintWriter,BufferedReader
+byte stream 2 bytes 	 FileOutputStream,FileInputStream
+data stream				 DataOutputStream,DataInputStream  int,float,
+buffered stream 1024 bytes BufferedOutputStream,BufferedInputStream
+object stream			ObjectOutputStream,ObjectInputStream
 
 
 
+
+String,StringBuffer,StringBuilder
+==================================
+
+			java.lang
+
+String -->imuttable  
+
+			String literal				String orgname="ericsson";
+			String with new keyword		String orgName1=new String("ericsson");
+	
+	
+	
+	
+	
+	
+	
+StringBuffer----->StringBuffer methods are synchronized , String builder methods are not synchronized
+
+StringBuilder--> muttable
+
+
+
+		public void m1()				 		multiple threads can access 
+		{
+		
+		}
+
+		public synchronized void m1()			only one thread is allowed to access 
+		{
+													t1,t2,t3
+		}
 
 
 
 
 Exception handling:
 ====================
+two limitations
+
+	1)Abnormal Termination
+	2)System defined ERROR MESSAGES 
 
 
+try,catch,finally,throw,throws
 
 
-I/O
-===
+throw	--->throw new AE/AIOE/NFE.....
 
-String,StringBuffer,StringBuilder
-==================================
+throws 
 
+		
+		1)make your class as child class to the any one of the parent exception classes(Exception/RuntimeException/Throwable)
+
+		2)take param constructor
+		
+		TASK:
+		====
+		
+		Scanner
+				Username
+				password
+		
+			ericsson  and ericsson123
+		
+				login success
+			invalidcredential
+					
+			
+			variables
+			
 Arrays:
 =======
+	Limitations
+	
+		1)only homogeneous data/similar data  is allowed
+		2)arrays are fixed in size   AIOE
+		3)no utility methods
 
-Collections:
-============
+
+
+Collections Framework:
+======================
+
+		Advantages:
+		===========
+		1)both homogeneous data/similar data and heterogeneous/disimilar data is allowed
+		2)collections are not fixed in size  or growable in nature   AL,vector 
+		3)lots utility methods
 
 
 
+List:
+=====
+	1)duplicates are allowed
+	2)insertion order preserved
 
+		AL,LL,V,S
 
+//Comparable,Comparator,Map,concurrentcollections,multi threading ,concurrent threads,java8
 
 AdvancedCollections
 ====================
