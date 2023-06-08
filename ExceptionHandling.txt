@@ -73,7 +73,9 @@ We have 3 types of exceptions
 	
 	
 	
+1-100
 
+1-10
 	
 	
 	
@@ -124,9 +126,31 @@ We have 3 types of exceptions
 	
 	
 	
+	int marks=230;
+		marks=330;
 	
+	arrays -->arrays used to store group of values together 
 	
-	
+		int marks[]={123,122,332,545,7,7,866,676};
+		int values[]=new int[10];
+		
+		index -->
+		marks[0]=999
+		sop(marks[0])
+				
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	
 	
