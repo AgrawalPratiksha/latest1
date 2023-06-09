@@ -503,8 +503,6 @@ List:
 
 //Comparable,Comparator,Map,concurrentcollections,multi threading ,concurrent threads,java8
 
-AdvancedCollections
-====================
 
 
 
@@ -516,20 +514,85 @@ AdvancedCollections
 multithreading:
 ===============
 
+	Multitasking 
+				
+				Process Based multi tasking:executing several tasks simultaniously where each task is seperate independent process 
+								teams,eclipse,mediaplayer
+				Thread Based multi tasking :executing several tasks simultaniously where each and every task belongs same process 
+
+			thread is a smallest unit of process
+			
+			process is a collection of threads
+
+	
+
+				class App{
+				
+				
+				segment1
 
 
 
 
+				segment2
+				
+				
+				
+				segment3 
+				
+				}
+		
 
 
+2 ways to create thread
+
+	1)Implements Runnable
+	2)extends Thread
+
+	3)Implements Callable-->call
+
+Inter thread communication
+
+			wait,notify,notifyAll
+`
+
+			running-->waiting area wait()
 
 
-Advanced Multithreading 
-=======================
+			notify
 
 
+			1-100
+			
+			even 2,4,6,8,10...100			wait()
+			odd	 1,3,5,7,9,...99			1,notify()wait()
+										1,2,
 
+Concurrent Threads 
+===================
 
+			conconrrency
+			
+			ExecutorService 
+			
+			
+			ThreadPool
+			
+			
+			
+			
+				
+Concurrent Collections
+====================
+
+		ArrayList-->no thread Safety
+		Vector-->thread safety -->locking mechanisam is different 
+		
+		
+		HashSet-->not synchronized 
+		
+		HashMap-->not synchronized
+		HashTable-->synchronized
 
 
 Java8 Features:
